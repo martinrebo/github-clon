@@ -1,14 +1,23 @@
 import React from 'react';
-import './App.css';
-import 'semantic-ui-css/semantic.min.css'
+import { StateProvider } from './store/store'
 
-import HeaderTitle from './components/Header/HeaderTitle'
+import './App.css';
+
+import Header from './components/Header/Header'
+import Searchbar from './components/Searchbar/Searchbar';
+import RepoList from './components/RepoList/RepoList';
 
 function App() {
+
+  // 
+
   return (
     <div className="App">
-      <HeaderTitle />
-
+      <StateProvider >
+        <Header />
+        <Searchbar />
+        <RepoList />
+      </StateProvider>
     </div>
   );
 }
