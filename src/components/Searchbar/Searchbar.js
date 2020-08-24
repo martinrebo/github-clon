@@ -1,6 +1,6 @@
 import React, { useContext, useState, useCallback } from 'react'
 import { store } from '../../store/store'
-
+import './Searchbar.css'
 
 function Searchbar() {
 
@@ -23,8 +23,8 @@ function Searchbar() {
 
 
     return (
-        <>
-            <input
+        <div className="searchbar">
+            <input className="searchbar-input"
                 type="text"
                 value={state.value}
                 onChange={handleChange}
@@ -32,7 +32,7 @@ function Searchbar() {
 
             </input>
 
-        </>
+        </div>
     )
 }
 

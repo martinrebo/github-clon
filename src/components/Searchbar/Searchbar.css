@@ -1,0 +1,12 @@
+.searchbar {
+    width: 100%;
+    background-color: #282c34;
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.searchbar-input {
+    width: 50%;
+    padding: 20px;
+    font-size: calc(20px + 2vmin);
+}

@@ -1,18 +1,21 @@
 import React, { createContext, useReducer } from 'react';
 
-const initialState = { data: {
-    name: "",
-    bio: "",
-    avatarUrl: "",
-    company: "", 
-    email: "",
-    repositories: {
-        nodes: []
-    }
+const initialState = {
+    data:
+       {
+            name: "",
+            bio: "",
+            avatarUrl: "",
+            company: "",
+            email: "",
+            repositories: {
+                nodes: []
+            }
 
-},
- filtered: [],
-  loading: true };
+    },
+    filtered: [],
+    loading: true
+};
 const store = createContext(initialState);
 const { Provider } = store;
 

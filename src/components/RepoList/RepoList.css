@@ -1,0 +1,28 @@
+.repos {
+    background-color: #282c34;
+    min-height: 100%;
+    padding: 50px;
+    border: 1px solid  #fff;
+}
+
+.repos .link {
+    padding: 20px 50px;
+
+}
+
+.repos .link a {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: #404b61;
+}
+
+.name {
+    font-size: calc(30px + 2vmin);
+}
+
+.description {
+    font-size: calc(10px + 2vmin);
+}

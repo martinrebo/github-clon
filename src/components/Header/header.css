@@ -1,0 +1,12 @@
+.avatar {
+    width: 50vw;
+}
+
+.profile {
+    width: 50vw;
+}
+
+.profile .name {
+    font-size: calc(25px + 2vmin);
+    font-weight: 600;
+}
