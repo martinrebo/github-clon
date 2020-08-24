@@ -4,7 +4,8 @@ import "./header.css"
 
 function Header() {
   const globalState = useContext(store)
-  const state = globalState.state.data
+
+const state = globalState.state.data
 
   return (
     <header className="App-header">

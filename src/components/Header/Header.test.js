@@ -1,15 +1,16 @@
 import React from "react";
 import Header from "./Header";
-import { shallow } from "enzyme";
+import { shallow, mount } from "enzyme";
+import { StateProvider } from '../../store/store'
 
 
 describe('<Header> component', () => {
   it('should render correctly', () => {
-    shallow(<Header />)
+    shallow(<StateProvider> <Header /> </StateProvider>)
   })
-  it('should have an <h1> tag', () => {
-    const component = shallow(<Header />)
-    expect(component.find('h1').html()).toContain('Github repo search')
+  it('should have an <header> tag', () => {
+    const component = mount(<StateProvider> <Header /> </StateProvider>)
+    expect(component.find('h1')).toHaveLength(1)
   });
 
 });
