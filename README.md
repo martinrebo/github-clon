@@ -5,6 +5,8 @@ Deployed using Firebase: https://github-search-a5b40.web.app/
 
 Created using: Create-react-app
 
-Start: npm start
-Build: npm run build
-Test: npm run test
+uses enviroment variable: process.env.REACT_APP_GITHUB_TOKEN
+
+- Start: npm start
+- Build: npm run build
+- Test: npm run test
