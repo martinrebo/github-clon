@@ -15,7 +15,7 @@ function RepoList() {
         fetch('https://api.github.com/graphql', {
             method: 'POST',
             headers: {
-                Authorization: `bearer a0273b4a5e163db415b3f976ee7b01fefe97d52e`
+                Authorization: `bearer ${process.env.REACT_APP_GITHUB_TOKEN}`
             },
             body: JSON.stringify({ query: QUERY_GITHUB })
         })
