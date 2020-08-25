@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/github-clon/static/css/main.f0c9e138.chunk.css",
-    "main.js": "/github-clon/static/js/main.cd73ffd3.chunk.js",
-    "main.js.map": "/github-clon/static/js/main.cd73ffd3.chunk.js.map",
+    "main.js": "/github-clon/static/js/main.efe58ab0.chunk.js",
+    "main.js.map": "/github-clon/static/js/main.efe58ab0.chunk.js.map",
     "runtime-main.js": "/github-clon/static/js/runtime-main.368e80bd.js",
     "runtime-main.js.map": "/github-clon/static/js/runtime-main.368e80bd.js.map",
     "static/js/2.ec1d660f.chunk.js": "/github-clon/static/js/2.ec1d660f.chunk.js",
     "static/js/2.ec1d660f.chunk.js.map": "/github-clon/static/js/2.ec1d660f.chunk.js.map",
     "index.html": "/github-clon/index.html",
-    "precache-manifest.941ad38517f8dca5e3eebf17743df5b6.js": "/github-clon/precache-manifest.941ad38517f8dca5e3eebf17743df5b6.js",
+    "precache-manifest.5ed138fa575f8ad9bd3f75dafad55c8d.js": "/github-clon/precache-manifest.5ed138fa575f8ad9bd3f75dafad55c8d.js",
     "service-worker.js": "/github-clon/service-worker.js",
     "static/css/main.f0c9e138.chunk.css.map": "/github-clon/static/css/main.f0c9e138.chunk.css.map",
     "static/js/2.ec1d660f.chunk.js.LICENSE.txt": "/github-clon/static/js/2.ec1d660f.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.368e80bd.js",
     "static/js/2.ec1d660f.chunk.js",
     "static/css/main.f0c9e138.chunk.css",
-    "static/js/main.cd73ffd3.chunk.js"
+    "static/js/main.efe58ab0.chunk.js"
   ]
 }
